@@ -15,3 +15,11 @@ print(arr.dtype)        # PRINTING THE DATA TYPE OF THE ARRAY
 print(type(arr))        # PRINDING THE TYPE OF THE ARRAY
 
 print(np.arange(1,6,2,dtype=float))  # PRINTING AN ARRAY AFTER IT GENERATED ( ARANGE IS WORKING ON arrange( [start] , [stop] , [step] , [dtype]) )
+
+# creating 2 numpy arrays and adding it 
+print(np.arange(1,6),"var1")
+print(np.arange(1,6),"var2")
+var1=np.arange(1,6)
+var2=np.arange(1,6)
+var3=var1+var2  # Here this two array will sum up the element with same index
+print(var3)
