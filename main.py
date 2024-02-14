@@ -13,3 +13,5 @@ print(np.ndim(arr))     # PRINTING THE DIMENTIONS OF THE ARRAY
 print(arr.dtype)        # PRINTING THE DATA TYPE OF THE ARRAY
 
 print(type(arr))        # PRINDING THE TYPE OF THE ARRAY
+
+print(np.arange(1,6,2,dtype=float))  # PRINTING AN ARRAY AFTER IT GENERATED ( ARANGE IS WORKING ON arrange( [start] , [stop] , [step] , [dtype]) )
