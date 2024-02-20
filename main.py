@@ -72,3 +72,14 @@ print(np.full((2,3),8)) #   [[8 8 8]
 #    the default type is int
 print(np.full((2,3),8,dtype=float)) #   [[8. 8. 8.]
                                     #   [8. 8. 8.]]
+
+
+#   reshape():
+#   reshape() will shape an array without changing the data of the array
+
+# arange will create anarray having 0 to 5 and the reshape will shape to 2 rows and 3 column
+print(np.arange(6).reshape(2,3)) #   [[0 1 2]
+                                 #   [3 4 5]]
+'''
+if the reshape is not given correctly it will throw also give row any and column only if you want
+'''
