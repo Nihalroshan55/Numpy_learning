@@ -39,12 +39,21 @@ print(np.zeros(2))   # [0. 0.]
 print(np.zeros((2,3))) #    [[0. 0. 0.]
                         #   [0. 0. 0.]]
 
-#    default data type is float
+#    default data type is float we can over ride with the dtype
 print(np.zeros((2,3),dtype=int))    #   [[0 0 0]
                                     #   [0 0 0]]
 
 
 
+#   ones():
+#   The ones() function returns a new array of given shape and data type, where the element’s value is set to 1. This function is very similar to numpy zeros()
 
+print(np.ones(1))   #   [1.]
 
+#   the first value provides with the rows and the other provides withe the columns 
+print(np.ones((2,3)))   #   [[1. 1. 1.]
+                        #   [1. 1. 1.]]
 
+#    default data type is float we can over ride with the dtype
+print(np.ones((2,3),dtype=int))    #   [[1 1 1]
+                                    #   [1 1 1]]
