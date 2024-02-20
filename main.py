@@ -68,3 +68,7 @@ print(np.full(3,4)) #   [4 4 4]
 #   here we given the row and the column
 print(np.full((2,3),8)) #   [[8 8 8]
                         #   [8 8 8]]
+
+#    the default type is int
+print(np.full((2,3),8,dtype=float)) #   [[8. 8. 8.]
+                                    #   [8. 8. 8.]]
