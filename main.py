@@ -57,3 +57,14 @@ print(np.ones((2,3)))   #   [[1. 1. 1.]
 #    default data type is float we can over ride with the dtype
 print(np.ones((2,3),dtype=int))    #   [[1 1 1]
                                     #   [1 1 1]]
+
+
+#   full():
+#   numpy.full(shape,fill_value,dtype) return a new array with the same shape and type as a given array filled with a fill_value
+
+#   first value have the count no.of row as shape and other will be the number that want to be filled 
+print(np.full(3,4)) #   [4 4 4]
+
+#   here we given the row and the column
+print(np.full((2,3),8)) #   [[8 8 8]
+                        #   [8 8 8]]
